@@ -1,0 +1,20 @@
+{
+  "name": "03-bases-node",
+  "version": "0.0.1",
+  "description": "Aplicacion de consola que genera un archivo txt con la tabla de multiplicar de \"N\" base",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app",
+    "base3": "node app --base=3"
+  },
+  "author": "Davis Vielma",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
